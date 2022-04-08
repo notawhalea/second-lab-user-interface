@@ -201,6 +201,7 @@ main .first-one-string li{
 /*slider all styles*/
 
 main .main-slider{
+    margin-top: 2px;
     margin-left: 150px;  
 }
 
