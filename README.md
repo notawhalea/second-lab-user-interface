@@ -1,4 +1,4 @@
-# HELLO WORLD and Ilya Vdovenko
+# HELLO WORLD!
 **********
 User interfaces developing-BSUIR-variant3(РПИ 4 семестр БГУИР) 
 
