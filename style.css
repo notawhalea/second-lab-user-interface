@@ -200,7 +200,101 @@ main .first-one-string li{
 
 /*slider all styles*/
 
-main .main-slider{
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  /*max-width: 1000px;*/
+  position: relative;
+  margin-left: 115px;
+  margin-right: 115px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.settings-for-button{
+    margin-top: -136px;
+    margin-left: 592px;
+}
+ .big-button-settings{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:29px;
+    background-color: #fd926d;
+    color: #f7f7f7;
+    padding-top: 8px;
+    padding-bottom: 13px;
+    padding-left: 19px;
+    padding-right: 20px;
+    border: none;
+    border-bottom: 4px solid #dd6b44;
+}
+
+.plus-in-button{
+    font-size: 22px;
+    margin-left: 14px;
+    margin-top: 70px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 55px 8px;
+  
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #dd6b44;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/*main .main-slider{
     margin-top: 2px;
     margin-left: 150px;  
 }
@@ -238,24 +332,7 @@ main .li-padding-slider{
     padding-top: 4px;
 }
 
-main .big-button-settings{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top:29px;
-    background-color: #fd926d;
-    color: #f7f7f7;
-    padding-top: 8px;
-    padding-bottom: 13px;
-    padding-left: 19px;
-    padding-right: 20px;
-    border: none;
-    border-bottom: 4px solid #dd6b44;
-}
 
-main .plus-in-button{
-    font-size: 22px;
-    margin-left: 14px;
-    margin-top: 70px;
-}
 
 main .left-arrow{
     margin-top: 190px;
@@ -268,7 +345,7 @@ main .right-arrow{
     margin-left: 30px;
     color:#a19f9e;
 }
-
+*/
 button:hover {
 	background: rgba(0,0,0,0);
 	color: #dd6b44;
@@ -289,14 +366,14 @@ hr {
     height:1px;
 }
 
-main .dot {
+/*main .dot {
     height: 10px;
     width: 10px;
     border-radius: 50%;
     display: inline-block;
     margin-top: 18px;
 }
-
+*/
 main .first-little-circle{
     margin-left: 534px;
     background-color: #8f8f8f;
@@ -316,6 +393,7 @@ main .third-little-circle{
 
 main .main-photos{
     display: flex;
+    margin-top: -56px;
     margin-left: 115px;
 }
 
