@@ -1,0 +1,94 @@
+.welcoming-slider {
+    height: 516px;
+    width: 81%;
+    margin: 0px auto;
+}
+
+.welcoming-slider-img-part {
+    height: 441px;
+    width: 100%;
+    background: #f6f3ec no-repeat url(../../assets/images/slider-picture-one.jpg);
+    transition: 0.5s;
+    
+    
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    /* background-position: 473px; */
+}
+
+.welcoming-slider-left-arrow {
+    background-color: #fefefd;
+    width: 31px;
+    height: 118px;
+    position: absolute;
+    margin-top: 164px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.welcoming-slider-left-arrow>img {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.welcoming-slider-left-arrow > span {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.welcoming-slider-right-arrow {
+    background-color: #fefefd;
+    width: 31px;
+    height: 118px;
+    position: absolute;
+    margin-left: 941px;
+    margin-top: 164px;
+    cursor: pointer;
+    user-select: none;
+}
+.welcoming-slider-right-arrow > span {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.welcoming-slider-right-arrow>img {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+.welcoming-slider-dots-part {
+    width: 81%;
+    height: 74px;
+    margin: 0 auto;
+}
+
+.dots-container {
+    margin-left: 355px;
+    margin-top: 31px
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #867a76;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.choosen {
+    background-color: #fd926d;
+}
+
+#sliderBtn {    
+    position: absolute;
+    opacity: 1;
+    top: 475px;
+    left: 865px;
+}

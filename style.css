@@ -200,47 +200,7 @@ main .first-one-string li{
 
 /*slider all styles*/
 
-* {box-sizing:border-box}
 
-/* Slideshow container */
-.slideshow-container {
-  /*max-width: 1000px;*/
-  position: relative;
-  margin-left: 115px;
-  margin-right: 115px;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
 
 .settings-for-button{
     margin-top: -136px;
@@ -265,33 +225,7 @@ main .first-one-string li{
     margin-top: 70px;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 10px;
-  width: 10px;
-  margin: 55px 8px;
-  
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
 
-.active, .dot:hover {
-  background-color: #dd6b44;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
 
 /*main .main-slider{
@@ -393,7 +327,7 @@ main .third-little-circle{
 
 main .main-photos{
     display: flex;
-    margin-top: -56px;
+    margin-top: -15px;
     margin-left: 115px;
 }
 
@@ -467,7 +401,7 @@ main .second-string-in-main-with-photos{
 }
 
 main .second-photo-in-second-string{
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 main .big-gray-square-in-main{
@@ -518,7 +452,7 @@ main .main-sidebar{
 
 main .big-black-square{
     height: 30px;
-    width: 230px;
+    width: 100%;
     background-color: #000000;
     font-size: 12px;
     color: white;
@@ -890,7 +824,7 @@ main .second-text-in-third-sidebar-3{
 
 main .last-string-in-main{
     display:flex;
-    margin-top: 35px;
+    margin-top: 828px;
     margin-left: 258px;
     padding-bottom: 32px;
 }

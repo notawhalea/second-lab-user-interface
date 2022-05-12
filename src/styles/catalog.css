@@ -1,0 +1,29 @@
+/* PAGINATION */
+.other-gray-square
+{
+    cursor: pointer;
+}
+
+.selected-gray-square {
+    background-color: orange;
+}
+
+.catalog-container {
+    width: 82%;
+    margin: 0px auto;
+    height: 500px;
+    display: flex;
+}
+
+.catalog {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 1em;
+
+}
+
+.side-bar{
+
+    width: 20%;
+}
